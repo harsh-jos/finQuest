@@ -14,6 +14,7 @@ class Login extends StatelessWidget {
           //color: Colors.orange,
           decoration: BoxDecoration(image: DecorationImage(image: AssetImage('assets/images/login_bg.png'),fit: BoxFit.cover)),
           child: Scaffold(
+            resizeToAvoidBottomInset: false,
             backgroundColor: Colors.transparent,
             body: Column(
               crossAxisAlignment: CrossAxisAlignment.center,

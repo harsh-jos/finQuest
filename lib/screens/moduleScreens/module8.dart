@@ -29,7 +29,7 @@ class Module8 extends StatelessWidget {
                     SizedBox(height: 8.0),
                     Text(
                       //'Flutter is an open-source UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.',
-"Bonds are debt instruments issued by governments, municipalities, corporations, and other entities to raise capital. When an entity issues a bond, it is essentially borrowing money from investors. The bond issuer promises to pay the bondholder a specified amount of interest (the coupon rate) at regular intervals until the bond matures, at which point the issuer repays the bond's face value to the bondholder.Example: Company XYZ issues a 5-year bond with a face value of $1,000 and an annual coupon rate of 5%. This means that the bondholder will receive $50 (5% of $1,000) in interest payments each year for 5 years. At the end of the 5-year period, Company XYZ will repay the $1,000 face value of the bond to the bondholder.",
+"Bonds are debt instruments issued by governments, municipalities, corporations, and other entities to raise capital. When an entity issues a bond, it is essentially borrowing money from investors. The bond issuer promises to pay the bondholder a specified amount of interest (the coupon rate) at regular intervals until the bond matures, at which point the issuer repays the bond's face value to the bondholder.Example: Company XYZ issues a 5-year bond with a face value of 1,000 and an annual coupon rate of 5%. This means that the bondholder will receive 50 (5% of 1,000) in interest payments each year for 5 years. At the end of the 5-year period, Company XYZ will repay the 1,000 face value of the bond to the bondholder.",
                       style: TextStyle(
                         fontFamily: 'Inter',
                         fontSize: 18.0,
@@ -66,7 +66,7 @@ class Module8 extends StatelessWidget {
                 ),
               ),
             ),
-            FloatingActionButton(onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context) => Quiz1(),));})
+            ElevatedButton(onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context) => Quiz1(),));}, child: Text("Quiz", style: TextStyle(fontFamily: 'Dongle', fontWeight: FontWeight.bold,fontSize: 40),))
           ],
         ),
       ),

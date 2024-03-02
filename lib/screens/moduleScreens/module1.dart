@@ -66,7 +66,7 @@ class Module1 extends StatelessWidget {
                 ),
               ),
             ),
-            FloatingActionButton(onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context) => Quiz1(),));})
+            ElevatedButton(onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context) => Quiz1(),));}, child: Text("Quiz", style: TextStyle(fontFamily: 'Dongle', fontWeight: FontWeight.bold,fontSize: 40),))
           ],
         ),
       ),
